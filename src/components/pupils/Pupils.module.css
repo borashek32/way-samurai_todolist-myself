@@ -1,0 +1,42 @@
+:root {
+    --color-magenta: #c425c4;
+    --color-disabled: #c0a0c0;
+}
+
+.pupilsTitle {
+    color: var(--color-magenta);
+}
+.buttonsWrapper {
+    display: flex;
+    gap: 7px;
+    margin-top: 20px;
+}
+.filterButton {
+    border: none;
+    border-radius: 3px;
+    background-color: var(--color-magenta);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 3px;
+    cursor: pointer;
+}
+.disabled {
+    background-color: var(--color-disabled);
+}
+.inputWrapper {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.mappedPupils {
+    height: 150px;
+}
+.pupilWrapper {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 5px;
+}
+.errorClass {
+    color: red
+}
